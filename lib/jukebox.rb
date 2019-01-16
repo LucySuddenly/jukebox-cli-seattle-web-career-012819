@@ -53,7 +53,8 @@ def run(songs)
       list(songs)
     elsif user_response == "play"
       play(songs)
-    elsif user_response == ""
+    elsif user_response == "help"
+      help
     end
   end
   exit_jukebox
